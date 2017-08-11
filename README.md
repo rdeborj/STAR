@@ -1,3 +1,3 @@
-# STAR Aligner Python Wraper
+# STAR Aligner Python Wrapper
 
 The STAR 
