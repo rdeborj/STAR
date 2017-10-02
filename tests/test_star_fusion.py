@@ -1,5 +1,5 @@
 import unittest
-from Star import get_fusions
+from star import get_fusions
 
 class TestFusion(unittest.TestCase):
     def test_fusion_command(self):
