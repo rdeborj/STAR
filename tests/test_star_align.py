@@ -1,5 +1,5 @@
 import unittest
-from Star import align_rnaseq
+from star import align_rnaseq
 
 class TestAlign(unittest.TestCase):
     def test_align_command(self):
