@@ -9,7 +9,6 @@ class TestAlign(unittest.TestCase):
             read2='./FCRL4_neg_Day_0_CGGCTATG-TAAGATTA_R2.fastq.gz',
             prefix='STAR/FCRL4_neg_Day_0_CGGCTATG-TAAGATTA',
             genome_dir='/cluster/projects/carlsgroup/workinprogress/abdel/20170418_INSPIRE_RNA/STARIndex_hg38_gencode_genomeSAsparseD2')
-        print(command)
         expected_command = " ".join([
             'STAR',
             '--runMode alignReads',
